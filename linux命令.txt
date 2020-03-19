@@ -1,0 +1,8 @@
+docker run --name mypostgres -d -p 5432:5432 -e POSTGRES_PASSWORD=123456 postgres
+
+
+vi /etc/sysconfig/network-scripts/ifcfg-ens33
+
+ service network restart ÖØÆôÍø¿¨
+
+https://blog.csdn.net/luansj/article/details/97272672
